@@ -8,8 +8,9 @@ function romanNumberDecoder(romanNumber) {
     D: 500,
     M: 1000,
   };
-  const romanNumberArray = romanNumber.split("");
-  return romanNumberArray
+  
+  return romanNumber
+    .split("")
     .map((roman) => romanNumerals[roman])
     .reduce(
       (acc, value, index, array) =>
