@@ -1,5 +1,3 @@
 function calculateDiscount(totalAmount) {
-  let disc = 0;
-  if (totalAmount > 100) return (disc = totalAmount * 0.1);
-  return (disc = totalAmount * 0.05);
+  return totalAmount>100?totalAmount*0.1:totalAmount*0.05
 }
