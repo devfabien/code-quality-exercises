@@ -1,3 +1,3 @@
-function maximumNumber(a, b, c) {
-  return Math.max(a, b, c);
+function maximumNumber(num1, num2, num3) {
+  return Math.max(num1, num2, num3);
 }
