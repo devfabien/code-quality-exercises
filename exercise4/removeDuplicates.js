@@ -1,3 +1,3 @@
 function removeDuplicates(array) {
-  return new Set(array);
+  return [...new Set(array)];
 }
